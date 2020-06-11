@@ -4,18 +4,57 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
-.everything {
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+h1 {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    background-color: black;
+    margin-bottom: -1rem;
+}
+.school-store {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
+    transition: 0.7s all;
+    align-items: center;
+    background-color: black;
 }
 .school-store-top {
-    background-color: color(black);
-    height: 40rem;
-    width: 100vw;
+    background-color: black;
+    height: 50rem;
+    width: 99vw;
     background-size: cover;
     display: flex;
     flex-direction: column;
     text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+.top-images {
+    
+}
+.item-1 {
+    display: flex;
+    background-image: url("../media/White.PNG");
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+    margin: 1.5rem;
 }
