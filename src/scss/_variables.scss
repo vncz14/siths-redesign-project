@@ -6,3 +6,30 @@ $colors: (
     white: #ffffff,
     gold: #C2B669
 );
+
+$desktop: 1100px;
+$laptop: 900px;
+$tablet: 700px;
+$mobile: 400px;
+
+@mixin desktop {
+  @media(max-width: #{$desktop}){
+    @content;
+  }
+}
+@mixin laptop {
+  @media(max-width: #{$laptop}){
+    @content;
+  }
+}
+@mixin tablet {
+  @media(max-width: #{$tablet}){
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media(max-width: #{$desktop}){
+      @content;
+  }
+}
