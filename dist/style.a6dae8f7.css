@@ -48,15 +48,33 @@ h1 {
   display: flex;
   justify-content: space-around;
   transition: 0.7s all;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
 .item-1 {
   display: flex;
   background-image: url("/White.a517f1b2.PNG");
-  height: 20rem;
-  width: 20rem;
+  height: 30rem;
+  width: 30rem;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 5rem;
+  color: white;
+  /*opacity: 0.9;*/
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  transition: 0.7s all;
+  background-position: center;
+  margin: 1.5rem;
+}
+
+.item-2 {
+  display: flex;
+  background-image: url("/White.a517f1b2.PNG");
+  height: 30rem;
+  width: 30rem;
   align-items: center;
   font-family: "Oswald", sans-serif;
   font-size: 5rem;
