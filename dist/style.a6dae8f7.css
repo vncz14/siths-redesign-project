@@ -70,6 +70,17 @@ h1 {
   margin: 1.5rem;
 }
 
+.item-1:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  outline: 1rem solid #C2B669;
+}
+
+.item-1:not(:hover) {
+  transform: scale(1);
+  opacity: 0.9;
+}
+
 .item-2 {
   display: flex;
   background-image: url("/White.a517f1b2.PNG");
@@ -86,6 +97,86 @@ h1 {
   transition: 0.7s all;
   background-position: center;
   margin: 1.5rem;
+}
+
+.item-2:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  outline: 1rem solid #C2B669;
+}
+
+.item-2:not(:hover) {
+  transform: scale(1);
+  opacity: 0.9;
+}
+
+.top-words {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.item-1-words {
+  font-family: "Sarala", sans-serif;
+  font-size: 3.3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.item-2-words {
+  font-family: "Sarala", sans-serif;
+  font-size: 3.3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.top-prices {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.top-price-1 {
+  font-family: "Sarala", sans-serif;
+  font-size: 2.3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.top-price-2 {
+  font-family: "Sarala", sans-serif;
+  font-size: 2.3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  transition: 0.7s all;
+}
+
+.top-button-1 {
+  background-color: #C2B669;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.top-button-2 {
+  background-color: #C2B669;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=/style.a6dae8f7.css.map */

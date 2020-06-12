@@ -44,7 +44,7 @@ h1 {
     justify-content: space-around;
     transition: 0.7s all;
     flex-direction: row;
-    align-items: center;
+   align-items: center;
 }
 .item-1 {
     display: flex;
@@ -63,6 +63,15 @@ h1 {
     background-position: center;
     margin: 1.5rem;
 }
+.item-1:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    outline: 1rem solid  #C2B669;
+}
+.item-1:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
 .item-2 {
     display: flex;
     background-image: url("../media/White.PNG");
@@ -80,6 +89,74 @@ h1 {
     background-position: center;
     margin: 1.5rem;
 }
-.item-1-words {
-    
+.item-2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    outline: 1rem solid  #C2B669;
 }
+.item-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.top-words {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.item-1-words {
+    font-family: 'Sarala', sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.item-2-words {
+    font-family: 'Sarala', sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.top-prices {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.top-price-1 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.top-price-2 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.top-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    transition: 0.7s all;
+}
+.top-button-1{
+    background-color: #C2B669;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.top-button-2 {
+    background-color: #C2B669;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+
