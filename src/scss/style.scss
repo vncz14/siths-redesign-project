@@ -178,5 +178,180 @@ h1 {
     transform: scale(1.0);
     opacity: 0.9;
 }
-
+.school-store-bottom {
+    background-color: black;
+    height: 60rem;
+    width: 99vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+.bottom-images {
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s all;
+    flex-direction: row;
+   align-items: center;
+}
+.item-3 {
+    display: flex;
+    background-image: url("../media/White.PNG");
+    height: 30rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+    margin: 1.5rem;
+}
+.item-3:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    outline: 1rem solid  #C2B669;
+}
+.item-3:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.item-4 {
+    display: flex;
+    background-image: url("../media/White.PNG");
+    height: 30rem;
+    width: 30rem;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: white;
+    /*opacity: 0.9;*/
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.7s all;
+    background-position: center;
+    margin: 1.5rem;
+}
+.item-4:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    outline: 1rem solid  #C2B669;
+}
+.item-4:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.bottom-words {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.item-3-words {
+    font-family: 'Sarala', sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.item-4-words {
+    font-family: 'Sarala', sans-serif;
+    font-size: 3.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.bottom-prices {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.bottom-price-1 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.bottom-price-2 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    text-decoration: none; 
+}
+.bottom-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    transition: 0.7s all;
+}
+.bottom-button-1{
+    background-color: #C2B669;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.bottom-button-1:hover {
+    transform: scale(1.0);
+    z-index: 2;
+    outline: 0.5rem solid  white;
+    transition: 0.3s all;
+}
+.bottom-button-1:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.bottom-button-2 {
+    background-color: #C2B669;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.bottom-button-2:hover {
+    transform: scale(1.0);
+    z-index: 2;
+    outline: 0.5rem solid  white;
+    transition: 0.3s all;
+}
+.bottom-button-2:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.see-all {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    transition: 0.7s all;
+}
+.see-all-button {
+    background-color: #C2B669;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+}
+.see-all-button:hover {
+    transform: scale(1.0);
+    z-index: 2;
+    outline: 0.5rem solid  white;
+    transition: 0.3s all;
+}
+.see-all-button:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
 
