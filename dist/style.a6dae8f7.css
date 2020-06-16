@@ -69,6 +69,14 @@ h1 {
   background-position: center;
   margin: 1.5rem;
 }
+@media (max-width: 375px) {
+  .item-1 {
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+  }
+}
 
 .item-1:hover {
   transform: scale(1.1);
@@ -98,6 +106,14 @@ h1 {
   background-position: center;
   margin: 1.5rem;
 }
+@media (max-width: 375px) {
+  .item-2 {
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+  }
+}
 
 .item-2:hover {
   transform: scale(1.1);
@@ -122,12 +138,22 @@ h1 {
   color: white;
   text-decoration: none;
 }
+@media (max-width: 375px) {
+  .item-1-words {
+    font-size: 2.7rem;
+  }
+}
 
 .item-2-words {
   font-family: "Sarala", sans-serif;
   font-size: 3.3rem;
   color: white;
   text-decoration: none;
+}
+@media (max-width: 375px) {
+  .item-2-words {
+    font-size: 2.7rem;
+  }
 }
 
 .top-prices {
@@ -240,6 +266,14 @@ h1 {
   background-position: center;
   margin: 1.5rem;
 }
+@media (max-width: 375px) {
+  .item-3 {
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+  }
+}
 
 .item-3:hover {
   transform: scale(1.1);
@@ -269,6 +303,14 @@ h1 {
   background-position: center;
   margin: 1.5rem;
 }
+@media (max-width: 375px) {
+  .item-4 {
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+  }
+}
 
 .item-4:hover {
   transform: scale(1.1);
@@ -293,12 +335,22 @@ h1 {
   color: white;
   text-decoration: none;
 }
+@media (max-width: 375px) {
+  .item-3-words {
+    font-size: 2.7rem;
+  }
+}
 
 .item-4-words {
   font-family: "Sarala", sans-serif;
   font-size: 3.3rem;
   color: white;
   text-decoration: none;
+}
+@media (max-width: 375px) {
+  .item-4-words {
+    font-size: 2.7rem;
+  }
 }
 
 .bottom-prices {
@@ -390,6 +442,13 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 3rem;
+}
+@media (max-width: 375px) {
+  .see-all-button {
+    font-size: 2.7rem;
+    padding: 15px 32px;
+    margin: 4rem;
+  }
 }
 
 .see-all-button:hover {

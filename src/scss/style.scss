@@ -1,3 +1,4 @@
+@import"./_variables.scss";
 html { 
     padding: 0;
     margin: 0;
@@ -44,7 +45,7 @@ h1 {
     justify-content: space-around;
     transition: 0.7s all;
     flex-direction: row;
-   align-items: center;
+    align-items: center;
 }
 .item-1 {
     display: flex;
@@ -62,6 +63,13 @@ h1 {
     transition: 0.7s all;
     background-position: center;
     margin: 1.5rem;
+    
+    @include phone {
+        flex-direction: column;
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
 }
 .item-1:hover {
     transform: scale(1.1);
@@ -88,6 +96,13 @@ h1 {
     transition: 0.7s all;
     background-position: center;
     margin: 1.5rem;
+      
+    @include phone {
+        flex-direction: column;
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
 }
 .item-2:hover {
     transform: scale(1.1);
@@ -108,12 +123,19 @@ h1 {
     font-size: 3.3rem;
     color: white;
     text-decoration: none; 
+      
+    @include phone {
+        font-size: 2.7rem;
+    }
 }
 .item-2-words {
     font-family: 'Sarala', sans-serif;
     font-size: 3.3rem;
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
+    @include phone {
+        font-size: 2.7rem;
+    } 
 }
 .top-prices {
     display: flex;
@@ -212,6 +234,12 @@ h1 {
     transition: 0.7s all;
     background-position: center;
     margin: 1.5rem;
+    @include phone {
+        flex-direction: column;
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
 }
 .item-3:hover {
     transform: scale(1.1);
@@ -238,6 +266,12 @@ h1 {
     transition: 0.7s all;
     background-position: center;
     margin: 1.5rem;
+    @include phone {
+        flex-direction: column;
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem;
+    }
 }
 .item-4:hover {
     transform: scale(1.1);
@@ -257,13 +291,19 @@ h1 {
     font-family: 'Sarala', sans-serif;
     font-size: 3.3rem;
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
+    @include phone {
+        font-size: 2.7rem;
+    }  
 }
 .item-4-words {
     font-family: 'Sarala', sans-serif;
     font-size: 3.3rem;
     color: white;
     text-decoration: none; 
+    @include phone {
+        font-size: 2.7rem;
+    } 
 }
 .bottom-prices {
     display: flex;
@@ -343,6 +383,11 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 3rem;
+    @include phone {
+        font-size: 2.7rem;
+        padding: 15px 32px;
+        margin: 4rem;
+    } 
 }
 .see-all-button:hover {
     transform: scale(1.0);

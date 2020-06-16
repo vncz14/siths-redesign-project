@@ -1,0 +1,27 @@
+$desktop: 1100px;
+$laptop: 950px;
+$tablet: 768px;
+$phone: 375px;
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+  }
+  @mixin desktop {
+    @media(max-width:#{$desktop}){
+      @content;
+    }
+  }
+  @mixin laptop {
+    @media(max-width:#{$laptop}){
+      @content;
+    }
+  }
+  @mixin tablet {
+    @media(max-width:#{$tablet}){
+      @content;
+    }
+  }
+  @mixin phone {
+    @media(max-width:#{$phone}){
+      @content;
+    }
+  }
