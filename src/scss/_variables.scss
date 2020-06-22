@@ -29,7 +29,18 @@ $mobile: 400px;
 }
 
 @mixin mobile {
-  @media(max-width: #{$desktop}){
+  @media(max-width: #{$mobile}){
       @content;
+  }
+}
+
+@keyframes fadein{
+  0% {
+      transform: scale(1.5); 
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1); 
+      opacity: 1;
   }
 }

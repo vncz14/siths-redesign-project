@@ -1,0 +1,143 @@
+@import "./_variables.scss";
+
+.section-1 {
+    height: 215vh;
+    background-color: black;  
+    @include mobile{
+        width: 100%;
+    }
+    margin: 0;
+  }
+
+.header-class {    
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.img1{
+    background-image: url(../media/image1.png);
+    height: 20rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+   margin-left: auto;
+   margin-right: auto;
+    
+   @include mobile{
+    background-size: cover;
+}
+
+}
+.img1:hover{
+    transform: scale(1.0);
+    z-index: 2;
+    outline: 0.5rem solid  white;
+    transition: 0.7s all;
+}
+.img1:not(:hover){
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.textone{
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.textone:hover, .textone:active{
+    text-decoration: underline;
+}
+.img2{
+    background-image: url(../media/image2.jpg);
+    height: 35rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin-left: auto;
+   margin-right: auto;
+     
+
+}
+.img2:hover{
+    transform: scale(1.0);
+    z-index: 2;
+    outline: 0.5rem solid  white;
+    transition: 0.7s all;
+}
+.img2:not(:hover){
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.texttwo{
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.texttwo:hover, .texttwo:active{
+    text-decoration: underline;
+}
+.img3{
+    background-image: url(../media/image3.png);
+    height: 50rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.img3:hover{
+    transform: scale(1.0);
+    z-index: 2;
+    outline: 0.5rem solid  white;
+    transition: 0.7s all;
+}
+.img3:not(:hover){
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.textthree{
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.textthree:hover, .textthree:active{
+    text-decoration: underline;
+}
+.button{
+    height: 8rem;
+    background-color:  #C2B669;
+    text-align: center;
+    width: 25vh;
+    border-radius: 8px;
+color: black;
+font-size: 3rem;
+line-height: 3rem;
+}
+.button:hover {
+    transform: scale(1.0);
+    z-index: 2;
+    outline: 0.5rem solid  white;
+    transition: 0.3s all;
+}
+.button:not(:hover) {
+    transform: scale(1.0);
+    opacity: 0.9;
+}
+.forthebutton{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s all;
+}

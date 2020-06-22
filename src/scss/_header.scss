@@ -1,5 +1,115 @@
 @import "_variables.scss";
 
 .header-topbar{
+    background-color: color(gold);
+    height:15vh;
+    display: flex;
+}
 
+.header-topbar-logo{
+    background-image: url("../media/SITHS.png");
+    height: 13vh;
+    width: 13vh;
+    background-size: 100% 100%;
+    margin: 1vh;
+    @include mobile {
+        height: 10vh;
+        width: 10vh;
+        margin: 2.5vh 1vh 2.5vh 1vh;
+    }
+}
+
+.header-background{
+    background-image: url("../media/grad.png");
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-background-text{
+    font-size: 10rem;
+    color: color(gold);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.3,0,.3,1);
+    animation-iteration-count: 1;
+    @include mobile {
+        font-size: 6rem;
+    }
+}
+
+.header-bottombar{
+    width: 100%;
+    height: 15vh;
+    background-color: color(gold);
+    display: flex;
+    justify-content: center;
+}
+
+.header-bottombar-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    @include laptop {
+        width: 80%;
+    }
+    @include tablet {
+        width: 80%;
+    }
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.header-bottombar-icons-icon{
+    margin: 0.2rem 0 0.2rem 0;
+    height: 14vh;
+    width: 15vh;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.header-bottombar-icons-icon:hover{
+    background-color: white;
+    transform: scale(0.95);
+    transition: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+
+.header-bottombar-icons-icon:not(hover){
+    background-color: transparent;
+    transition: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+.header-bottombar-icons-icon-picture{
+    width: 100%;
+    height: 10vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.header-bottombar-icons-icon1-picture{
+    background-image: url("../media/admission.png");
+}
+
+.header-bottombar-icons-icon2-picture{
+    background-image: url("../media/business-and-finance.png");    
+}
+
+.header-bottombar-icons-icon3-picture{
+    background-image: url("../media/shopping-list.png");
+}
+
+.header-bottombar-icons-icon-text{
+    margin: 0;
+    font-size: 1.4rem;
 }
